@@ -7,4 +7,4 @@
   - "{{ helper.name }}"
   - "{{ bootstrap.name | default('') }}"
   - "{{ masters }}"
-  - "{{ workers | default('') }}"
+  - "{{ workers | map(attribute='name') | join(',') }}"

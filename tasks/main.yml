@@ -367,21 +367,21 @@
       vars:
         role: bootstrap
         mac: "{{ bootstrap.macaddr }}"
-      include_tasks: generate_grub.yml
+      include_tasks: generate_grub_bootstrap.yml
       when: bootstrap is defined
 
     - name: generate grub entry (masters)
       vars:
         role: master
         mac: "{{ item.macaddr }}"
-      include_tasks: generate_grub.yml
+      include_tasks: generate_grub_master.yml
       with_items: "{{ masters }}"
 
     - name: generate grub entry (workers)
       vars:
         role: worker
         mac: "{{ item.macaddr }}"
-      include_tasks: generate_grub.yml
+      include_tasks: generate_grub_worker.yml
       with_items: "{{ workers }}"
       when:
         - workers is defined
