@@ -31,7 +31,7 @@ helper:
   ipaddr: "10.1.X.Y"
   networkifacename: "eth1"
 dns:
-  domain: "prod-cloud2.itcloud.local.vodafone.om"
+  domain: "example.com"
   clusterid: "rhocp"
   forwarder1: "10.1.X.1"
   forwarder2: "10.14.X.2"
