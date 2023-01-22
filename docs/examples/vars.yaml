@@ -16,6 +16,7 @@ dhcp:
   poolend: "192.168.7.30"
   ipid: "192.168.7.0"
   netmaskid: "255.255.255.0"
+  #dns: "192.168.1.1 ,192.168.1.2"
 bootstrap:
   name: "bootstrap"
   ipaddr: "192.168.7.20"
