@@ -1,15 +1,15 @@
 ---
-ssh_gen_key: true
+ssh_gen_key: false
 install_filetranspiler: false
 staticips: false
 force_ocp_download: false
 remove_old_config_files: false
 baremetal: true
-ocp_bios: "https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/4.10/4.10.3/rhcos-4.10.3-x86_64-live-rootfs.x86_64.img"
-ocp_initramfs: "https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/4.10/latest/rhcos-4.10.3-x86_64-live-initramfs.x86_64.img"
-ocp_install_kernel: "https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/4.10/latest/rhcos-4.10.3-x86_64-live-kernel-x86_64"
-ocp_client: "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.10.3/openshift-client-linux-4.10.3.tar.gz"
-ocp_installer: "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.10.3/openshift-install-linux-4.10.3.tar.gz"
+ocp_bios: "https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/4.10/latest/rhcos-4.10.37-x86_64-live-rootfs.x86_64.img"
+ocp_initramfs: "https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/4.10/latest/rhcos-4.10.37-x86_64-live-initramfs.x86_64.img"
+ocp_install_kernel: "https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/4.10/latest/rhcos-4.10.37-x86_64-live-kernel-x86_64"
+ocp_client: "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.10.59/openshift-client-linux-4.10.59.tar.gz"
+ocp_installer: "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.10.59/openshift-install-linux-4.10.59.tar.gz"
 helm_source: "https://get.helm.sh/helm-v3.6.3-linux-amd64.tar.gz"
 chars: (\\_|\\$|\\\|\\/|\\=|\\)|\\(|\\&|\\^|\\%|\\$|\\#|\\@|\\!|\\*)
 ppc64le: false
