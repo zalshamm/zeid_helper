@@ -15,10 +15,21 @@
         - named
         - haproxy
 
+#- block:
+#  - set_fact:
+#      critical_services: "{{ critical_services }} + [ 'dhcpd' ]"
+# when: not staticips
+
+
 - block:
   - set_fact:
-      critical_services: "{{ critical_services }} + [ 'dhcpd' ]"
+      critical_services:
+       - httpd
+       - named
+       - haproxy
+       - dhcpd
   when: not staticips
+
 
 - block:
   - set_fact:
