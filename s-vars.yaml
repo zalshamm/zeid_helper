@@ -112,60 +112,60 @@ workers:
   - name: "worker-15.ocp-dr.stc.com.sa"
     ipaddr: "10.18.86.132"
     macaddr: "00:50:56:a6:a5:cd"
-  - name: "worker-16.ocp-dr.stc.com.sa"
+  - name: "worker-16.ocp-dr.stc.com.sa"   #DRSCPrLTNR26
     ipaddr: "10.18.86.157"
-    macaddr: "00:50:56:a6:5e:4d"
-  - name: "worker-17.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.158"
     macaddr: "00:50:56:a6:e0:db"
-  - name: "worker-18.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.159"
+  - name: "worker-17.ocp-dr.stc.com.sa"   #DRSCPrLTNR27
+    ipaddr: "10.18.86.158"
     macaddr: "00:50:56:a6:f4:54"
-  - name: "worker-19.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.160"
+  - name: "worker-18.ocp-dr.stc.com.sa"   #DRSCPrLTNR28
+    ipaddr: "10.18.86.159"
     macaddr: "00:50:56:a6:0c:b8"
-  - name: "worker-20.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.161"
+  - name: "worker-19.ocp-dr.stc.com.sa"   #DRSCPrLTNR29
+    ipaddr: "10.18.86.160"
     macaddr: "00:50:56:a6:34:4e"
-  - name: "worker-21.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.162"
+  - name: "worker-20.ocp-dr.stc.com.sa"   #DRSCPrLTNR30
+    ipaddr: "10.18.86.161"
     macaddr: "00:50:56:a6:50:d4"
-  - name: "worker-22.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.163"
+  - name: "worker-21.ocp-dr.stc.com.sa"   #DRSCPrLTNR31
+    ipaddr: "10.18.86.162"
     macaddr: "00:50:56:a6:d6:78"
-  - name: "worker-23.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.164"
+  - name: "worker-22.ocp-dr.stc.com.sa"   #DRSCPrLTNR32
+    ipaddr: "10.18.86.163"
     macaddr: "00:50:56:a6:6e:e6"
-  - name: "worker-24.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.165"
+  - name: "worker-23.ocp-dr.stc.com.sa"   #DRSCPrLTNR33
+    ipaddr: "10.18.86.164"
     macaddr: "00:50:56:a6:4e:14"
-  - name: "worker-25.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.166"
+  - name: "worker-24.ocp-dr.stc.com.sa"   #DRSCPrLTNR34
+    ipaddr: "10.18.86.165"
     macaddr: "00:50:56:a6:0c:51"
-  - name: "worker-26.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.167"
+  - name: "worker-25.ocp-dr.stc.com.sa"   #DRSCPrLTNR35
+    ipaddr: "10.18.86.166"
     macaddr: "00:50:56:a6:e9:d3"
-  - name: "worker-27.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.168"
+  - name: "worker-26.ocp-dr.stc.com.sa"   #DRSCPrLTNR36
+    ipaddr: "10.18.86.167"
     macaddr: "00:50:56:a6:94:08"
-  - name: "worker-28.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.169"
+  - name: "worker-27.ocp-dr.stc.com.sa"   #DRSCPrLTNR37
+    ipaddr: "10.18.86.168"
     macaddr: "00:50:56:a6:02:e9"
-  - name: "worker-29.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.170"
+  - name: "worker-28.ocp-dr.stc.com.sa"   #DRSCPrLTNR38
+    ipaddr: "10.18.86.169"
     macaddr: "00:50:56:a6:7e:6b"
-  - name: "worker-30.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.171"
+  - name: "worker-29.ocp-dr.stc.com.sa"   #DRSCPrLTNR39
+    ipaddr: "10.18.86.170"
     macaddr: "00:50:56:a6:ed:be"
-  - name: "worker-31.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.172"
+  - name: "worker-30.ocp-dr.stc.com.sa"   #DRSCPrLTNR40
+    ipaddr: "10.18.86.171"
     macaddr: "00:50:56:a6:44:64"
-  - name: "worker-32.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.173"
+  - name: "worker-31.ocp-dr.stc.com.sa"   #DRSCPrLTNR41
+    ipaddr: "10.18.86.172"
     macaddr: "00:50:56:a6:e5:48"
-  - name: "worker-33.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.174"
+  - name: "worker-32.ocp-dr.stc.com.sa"   #DRSCPrLTNR42
+    ipaddr: "10.18.86.173"
     macaddr: "00:50:56:a6:5e:ff"
-  - name: "worker-34.ocp-dr.stc.com.sa"
-    ipaddr: "10.18.86.175"
+  - name: "worker-33.ocp-dr.stc.com.sa"   #DRSCPrLTNR43
+    ipaddr: "10.18.86.174"
     macaddr: "00:50:56:a6:dd:97"
+  - name: "worker-34.ocp-dr.stc.com.sa"   #DRSCPrLTNR44
+    ipaddr: "10.18.86.175"
+    macaddr: "00:50:56:a6:ee:9a"
